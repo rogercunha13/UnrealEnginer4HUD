@@ -5,14 +5,14 @@
 Neste exemplo vamos inserir uma HUD básica de **VIDA** do personagem.
 - Primeiramente criamos um evento de **Dano** na blueprint do personagem:
 
-![Imagem_AddCustomEvent](ImagensHUD/Imagem_AddCustomEvent.JPG)
+![Imagem_AddCustomEvent](ImagensHUD/Imagem_AddCustomEvent.jpg)
 
-![Imagem_EventDano](ImagensHUD/Imagem_EventDano.JPG)
+![Imagem_EventDano](ImagensHUD/Imagem_EventDano.jpg)
 
 Logo após, criamos uma variável tipo **float** com o nome **Vida**;
 Em seguida seguimos com a lógica do Dano:
 
-![Imagem_LogicaDano2](ImagensHUD/Imagem_LogicaDano2.JPG)
+![Imagem_LogicaDano2](ImagensHUD/Imagem_LogicaDano2.jpg)
 
 Com a lógica do **Evento Dano** pronta, seguimos para a criaçao da HUD;
 
