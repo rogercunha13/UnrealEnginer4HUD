@@ -5,14 +5,14 @@
 Neste exemplo vamos inserir uma HUD básica de **VIDA** do personagem.
 - Primeiramente criamos um evento de **Dano** na blueprint do personagem:
 
-![AddCustomEvent](imagens/AddCustomEvent.jpg)
+![Imagem_AddCustomEvent](ImagensHUD/Imagem_AddCustomEvent.JPG)
 
-![EventDano](imagens/EventDano.jpg)
+![Imagem_EventDano](ImagensHUD/Imagem_EventDano.JPG)
 
 Logo após, criamos uma variável tipo **float** com o nome **Vida**;
 Em seguida seguimos com a lógica do Dano:
 
-![LogicaDano2](imagens/LogicaDano2.jpg)
+![Imagem_LogicaDano2](ImagensHUD/Imagem_LogicaDano2.JPG)
 
 Com a lógica do **Evento Dano** pronta, seguimos para a criaçao da HUD;
 
@@ -21,29 +21,30 @@ Criamos uma Blueprint Widget para mostrar a vida do persongem na tela. Então pa
 Criar uma Widget:
 - Aperte o botão direito do mouse no content Browser:
 
-![CriandoWidget](imagens/CriandoWidget.jpg)  
+![Imagem_CriandoWidget](ImagensHUD/Imagem_CriandoWidget.jpg)
 
 - Nomeamos como BP_WidgetHUDHeroi: ![BP_WidgetHUDHeroi](imagens/BP_WidgetHUDHeroi.jpg)
 
 - Em seguida, abra o blueprint criado:
 
-![telawidget](imagens/telawidget.jpg)
+![Imagem_telawidget](ImagensHUD/Imagem_telawidget.jpg)
 
 - Arraste o text até a tela tracejada, no exemplo acima foi inserido dois Texts, onde um foi nomeado com Vida e o outro em branco onde será realizado uma **bind** onde será mostrado a vida do personagem;
 
 - No text destacado na imagem acima, é feito uma **bind**:
 
-![BindWidget](imagens/BindWidget.jpg)
+![Imagem_BindWidget](ImagensHUD/Imagem_BindWidget.jpg)
 
 Ao criar a bind, será levado até a área de Graph da widget;
 
-![graphWidget](imagens/graphWidget.jpg)
+
+![Imagem_graphWidget](ImagensHUD/Imagem_graphWidget.jpg)
 
 Em seguida, no Event Graph do Blueprint do persongem:
 
-![CreateWidgetBPpersonagem](imagens/CreateWidgetBPpersonagem.jpg)
+![Imagem_CreateWidgetBPpersonagem](ImagensHUD/Imagem_CreateWidgetBPpersonagem.jpg)
 
-![Widgetdopersonagem](imagens/Widgetdopersonagem.jpg)
+![Imagem_Widgetdopersonagem](ImagensHUD/Imagem_Widgetdopersonagem.jpg)
 
 Após isto, voltar ao **BP_WidgetHUDHeroi**:
 
@@ -51,16 +52,17 @@ No Event Graph do Widget:
 
 - Criar a referência ao personagem:
 
-![ReferenciaPersonagem](imagens/ReferenciaPersonagem.jpg)
+![Imagem_ReferenciaPersonagem](ImagensHUD/Imagem_ReferenciaPersonagem.jpg)
 
 em seguida, inserir a referência:
 
-![inserindoreferenciaperson2](imagens/inserindoreferenciaperson2.jpg)
+![Imagem_inserindoreferenciaperson2](ImagensHUD/Imagem_inserindoreferenciaperson2.jpg)
 
-![inserindoreferenciaperson3](imagens/inserindoreferenciaperson3.jpg)
+![Imagem_inserindoreferenciaperson3](ImagensHUD/Imagem_inserindoreferenciaperson3.jpg)
 
-![inserindoreferenciaperson4](imagens/inserindoreferenciaperson4.jpg)
+![Imagem_inserindoreferenciaperson4](ImagensHUD/Imagem_inserindoreferenciaperson4.jpg)
 
 Em seguida, salvar e compilar;
 
-![Widgetnatela](imagens/Widgetnatela.jpg)
+![Imagem_Widgetnatela](ImagensHUD/Imagem_Widgetnatela.jpg)
+HUD no viewport.
