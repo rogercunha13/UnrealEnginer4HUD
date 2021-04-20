@@ -23,7 +23,7 @@ Criar uma Widget:
 
 ![Imagem_CriandoWidget](ImagensHUD/Imagem_CriandoWidget.jpg)
 
-- Nomeamos como BP_WidgetHUDHeroi: ![BP_WidgetHUDHeroi](imagens/BP_WidgetHUDHeroi.jpg)
+- Nomeamos como BP_WidgetHUDHeroi: ![BP_WidgetHUDHeroi](ImagensHUD/Imagem_BP_WidgetHUDHeroi.jpg)
 
 - Em seguida, abra o blueprint criado:
 
